@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CocktailCell" rowHeight="339" id="KGk-i7-Jjw" customClass="CocktailCell" customModule="MasterTableView" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="417" height="339"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="417" height="339"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Link" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xxo-Ii-knB">
+                        <rect key="frame" x="8" y="90" width="148" height="33"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Thông tin" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="xGR-qR-jU4">
+                        <rect key="frame" x="8" y="8" width="76" height="33"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Giới thiệu" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vqA-k3-BHK">
+                        <rect key="frame" x="8" y="49" width="76.5" height="33"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="er1-d2-6uL">
+                        <rect key="frame" x="157" y="8" width="252" height="33"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ulz-WU-GSa">
+                        <rect key="frame" x="156" y="0.0" width="1" height="339"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="pQh-Yf-JZr"/>
+                        </constraints>
+                    </view>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SRK-cZ-HZP">
+                        <rect key="frame" x="157" y="90" width="252" height="33"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="CLM-as-mtu">
+                        <rect key="frame" x="157" y="90" width="252" height="150"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="150" id="qxj-G7-EbK"/>
+                            <constraint firstAttribute="width" secondItem="CLM-as-mtu" secondAttribute="height" multiplier="42:25" id="vwV-Nn-hm8"/>
+                        </constraints>
+                    </imageView>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="A2b-JC-WgA">
+                        <rect key="frame" x="157" y="49" width="252" height="33"/>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T5r-rv-6Oe">
+                        <rect key="frame" x="0.0" y="248" width="417" height="1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="417" id="wqk-rg-fea"/>
+                            <constraint firstAttribute="height" constant="1" id="yfc-D7-cyU"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="A2b-JC-WgA" firstAttribute="leading" secondItem="er1-d2-6uL" secondAttribute="leading" id="3Hi-7o-sWn"/>
+                    <constraint firstItem="xxo-Ii-knB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="3mk-LX-gsj"/>
+                    <constraint firstItem="Ulz-WU-GSa" firstAttribute="leading" secondItem="xxo-Ii-knB" secondAttribute="trailing" id="9ey-TC-3MC"/>
+                    <constraint firstItem="A2b-JC-WgA" firstAttribute="top" secondItem="er1-d2-6uL" secondAttribute="bottom" constant="8" id="BSQ-19-5Is"/>
+                    <constraint firstItem="T5r-rv-6Oe" firstAttribute="top" secondItem="CLM-as-mtu" secondAttribute="bottom" constant="8" id="Gyc-Nx-3L1"/>
+                    <constraint firstItem="er1-d2-6uL" firstAttribute="leading" secondItem="Ulz-WU-GSa" secondAttribute="trailing" id="HeV-J9-36b"/>
+                    <constraint firstItem="SRK-cZ-HZP" firstAttribute="top" secondItem="A2b-JC-WgA" secondAttribute="bottom" constant="8" id="IY3-lf-VT5"/>
+                    <constraint firstAttribute="bottom" secondItem="Ulz-WU-GSa" secondAttribute="bottom" id="Jls-09-iDB"/>
+                    <constraint firstAttribute="trailing" secondItem="T5r-rv-6Oe" secondAttribute="trailing" id="Jp6-aa-ef3"/>
+                    <constraint firstItem="CLM-as-mtu" firstAttribute="leading" secondItem="SRK-cZ-HZP" secondAttribute="leading" id="LyB-TC-Sz1"/>
+                    <constraint firstItem="er1-d2-6uL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="MDP-f3-Wu4"/>
+                    <constraint firstItem="Ulz-WU-GSa" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="MdA-Te-Gdr"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="T5r-rv-6Oe" secondAttribute="bottom" constant="8" id="Psv-aT-soa"/>
+                    <constraint firstItem="A2b-JC-WgA" firstAttribute="top" secondItem="vqA-k3-BHK" secondAttribute="top" id="T9q-hI-e8e"/>
+                    <constraint firstItem="vqA-k3-BHK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="XHi-R8-lZp"/>
+                    <constraint firstItem="A2b-JC-WgA" firstAttribute="leading" secondItem="Ulz-WU-GSa" secondAttribute="trailing" id="XYC-R9-S17"/>
+                    <constraint firstItem="CLM-as-mtu" firstAttribute="leading" secondItem="er1-d2-6uL" secondAttribute="leading" id="Xm9-vV-zJw"/>
+                    <constraint firstItem="xGR-qR-jU4" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="Zvq-EU-zwa"/>
+                    <constraint firstItem="T5r-rv-6Oe" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="aSo-Wd-jpE"/>
+                    <constraint firstAttribute="trailing" secondItem="SRK-cZ-HZP" secondAttribute="trailing" constant="8" id="cTq-2r-fpI"/>
+                    <constraint firstItem="er1-d2-6uL" firstAttribute="top" secondItem="xGR-qR-jU4" secondAttribute="top" id="e6u-qQ-eDb"/>
+                    <constraint firstItem="SRK-cZ-HZP" firstAttribute="leading" secondItem="er1-d2-6uL" secondAttribute="leading" id="i37-CW-DZS"/>
+                    <constraint firstAttribute="trailing" secondItem="A2b-JC-WgA" secondAttribute="trailing" constant="8" id="jyJ-si-2zd"/>
+                    <constraint firstItem="SRK-cZ-HZP" firstAttribute="leading" secondItem="Ulz-WU-GSa" secondAttribute="trailing" id="nDc-JZ-ImC"/>
+                    <constraint firstAttribute="trailing" secondItem="er1-d2-6uL" secondAttribute="trailing" constant="8" id="qMR-Bj-zgd"/>
+                    <constraint firstItem="SRK-cZ-HZP" firstAttribute="top" secondItem="xxo-Ii-knB" secondAttribute="top" id="xXb-bJ-AIn"/>
+                    <constraint firstItem="Ulz-WU-GSa" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.75" id="yAA-Uf-6IT"/>
+                    <constraint firstItem="CLM-as-mtu" firstAttribute="top" secondItem="SRK-cZ-HZP" secondAttribute="top" id="yaa-gc-3kf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="infoImageView" destination="CLM-as-mtu" id="vMb-Vk-63p"/>
+                <outlet property="strDrinkThumbTextView" destination="SRK-cZ-HZP" id="hGe-La-Q21"/>
+                <outlet property="strGlassTextView" destination="er1-d2-6uL" id="mSZ-Ez-276"/>
+                <outlet property="strInstructionsTextView" destination="A2b-JC-WgA" id="r72-AK-zia"/>
+            </connections>
+            <point key="canvasLocation" x="29.710144927536234" y="-369.30803571428572"/>
+        </tableViewCell>
+    </objects>
+</document>
